@@ -282,7 +282,7 @@ permissions:
   preciousstones.limit15:
     description: Limit 15
   preciousstones.benefit.*:
-    default: false
+    default: true
     description: Can use PreciousStones
     children:
       preciousstones.benefit.fields: true
@@ -321,7 +321,7 @@ permissions:
       preciousstones.benefit.blacklistcommand: true
   preciousstones.whitelist.*:
     description: Can whitelist others into fields
-    default: false
+    default: true
     children:
       preciousstones.whitelist.allow: true
       preciousstones.whitelist.allowed: true
@@ -330,7 +330,7 @@ permissions:
       preciousstones.whitelist.removeall: true
   preciousstones.translocation.*:
     description: Can do translocation related things
-    default: false
+    default: true
     children:
       preciousstones.translocation.use: true
       preciousstones.translocation.import: true
